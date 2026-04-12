@@ -24,7 +24,7 @@ This command displays the network interface information, including the IP addres
 
 From the output, I identified my IP address and determined that my network range was:
 
-192.168.0.0/24
+10.0.2.15
 
 This information is important because it allows me to know which network range to scan when searching for the target machine.
 
@@ -34,7 +34,7 @@ Next, I scanned the network to discover active devices and identify the IP addre
 
 I used the following Nmap command:
 
-nmap -sn 192.168.0.0/24
+nmap -sn 10.0.2.15
 
 This command performs a ping scan to find active hosts in the network.
 
@@ -48,13 +48,13 @@ After identifying that port 80 (HTTP) was open from the Nmap scan, I decided to 
 
 First, I opened the target IP address in a web browser:
 
-http://192.168.0.24/
+http://10.0.2.15
 
 The webpage did not reveal much useful information. Because of that, I decided to perform directory enumeration to discover hidden directories on the web server.
 
 To do this, I used Gobuster with a common wordlist:
 
-gobuster dir -u http://192.168.0.24 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+gobuster dir -u http://10.0.2.15 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
 After running the scan, I discovered a hidden directory:
 
@@ -74,7 +74,7 @@ Step 6 – Accessing the FTP Server
 
 Next, I logged into the FTP service using the credentials found from the QR code.
 
-ftp 192.168.0.24
+ftp 10.0.2.15
 
 After logging in, I listed the files:
 
@@ -106,7 +106,7 @@ Step 7 – Getting a User Shell
 
 From the files and information gathered, I was able to log in to the system through SSH as the user robin.
 
-ssh robin@192.168.0.24
+ssh robin@10.0.2.15
 
 Now going to obtain The first flag .
 
