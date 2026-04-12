@@ -28,7 +28,7 @@ As expected, we get a hit on an exploit for the vsftpd 2.3.4 backdoor. Use it by
 
     set RHOST 10.150.150.12
 
-![image](https://github.com/0yells/VA-Lab-Work/blob/821e932c0c389384ee5cf4a156800f330e4b9b69/gambo/Screenshot%202026-04-13%20004732.png)
+![imaage alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/ef469279efce22034d7fed33be5b57cf7a0e5d58/image/4.png)
 
     id
     ls
