@@ -7,6 +7,7 @@ LAB 4
 We use exiftool to extract metadata from the image file so that hidden information stored inside the image such as file details, creation data and additional embedded information that cannot be seen normally
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/f42bdc157c813a1692c1947666228f2d12662dd6/gambar/lab4%201.png)
+
 and then we found in the comment: THIS IS HIDDEN FLAG
 
 This show that image can contain hidden data within metadata fields such as comments
@@ -25,7 +26,8 @@ From the ouput, we can see that hexeditor displays two sections which: • Left 
 
     binwalk dog.jpg
 
-![image](https://github.com/0yells/VA-Lab-Work/blob/40964bcc5e278362d1721c10ba4f225f2eb3bad0/gambar/tiga.png)
+![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/2a553b1c0feac5daa3e5cffa99adcdc558a73b21/gambar/lab4%203.png)
+
 We can see zip file is embedded in this file. So now we can extract it using
 
     binwalk -e dog.jpg
