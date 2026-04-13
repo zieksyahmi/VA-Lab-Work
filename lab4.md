@@ -85,4 +85,4 @@ nd it turns out to be .png extension. we can change the extension by using
 
     open rubiks.png
 
-![image](https://github.com/0yells/VA-Lab-Work/blob/1209cc18d84dc838c834f3c3da65c90b2ac0a3b5/gambar/sembilan.png)
+![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/1316ed6248854d1ae875fa954d9878cda08085b9/gambar/lab4%209.png)
