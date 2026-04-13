@@ -41,7 +41,8 @@ So, we can see it contains hidden_text.txt now open the hidden_text.txt to see w
 
     open hidden_text.txt
 
-![image](https://github.com/0yells/VA-Lab-Work/blob/b3cbe7908ba97d7027653503dbed046a5f88bdf4/gambar/empat.png)
+![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/717e11b3739cfdb45e8dbf1181ee1f2767823e3a/gambar/LAB4%204.png)
+
 and then we found the THIS IS A HIDDEN FLAG
 
 4.0 strings
