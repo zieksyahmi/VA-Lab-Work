@@ -6,8 +6,7 @@ LAB 4
 
 We use exiftool to extract metadata from the image file so that hidden information stored inside the image such as file details, creation data and additional embedded information that cannot be seen normally
 
-![image](https://github.com/0yells/VA-Lab-Work/blob/e868bde6a96a2c046e7f056eea831efb15996054/gambar/satu.png)
-
+![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/f42bdc157c813a1692c1947666228f2d12662dd6/gambar/lab4%201.png)
 and then we found in the comment: THIS IS HIDDEN FLAG
 
 This show that image can contain hidden data within metadata fields such as comments
