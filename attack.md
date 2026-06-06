@@ -20,6 +20,8 @@ set RHOST and LHOST
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/9052651c440f645501f89b546d01b29dca3340ff/image/Screenshot%202026-06-07%20020240.png)
 
+then run it and you will get the shell
+
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/67e21d62528b8beaf892127cbfc32d22f21b321d/image/Screenshot%202026-06-07%20020248.png)
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/20086191a9d63c52a42e4fc27fee917d0def9db2/image/Screenshot%202026-06-07%20020303.png)
