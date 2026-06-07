@@ -41,10 +41,22 @@ The shell session was upgraded to a full Meterpreter session for richer post-exp
     set SESSION 1
     run
 
+Meterpreter session 2 opened (10.48.188.151:4433 → 10.48.143.7:49236).
+
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/4591338f03d81b01369759cfc99e472948afcc53/image/Screenshot%202026-06-07%20031027.png)
+
+Dropped into a Windows shell from Meterpreter and confirmed the running user context.
+
+    meterpreter > shell
+    C:\Windows\system32> whoami
+    nt authority\system
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/d50bce36e58a0862da95a47df5be717f2935864a/image/Screenshot%202026-06-07%20031036.png)
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/febb227337dc05422ecaf30077330ba8b6939280/image/Screenshot%202026-06-07%20031044.png)
 
+The attacker has unrestricted access: dumping credentials (e.g. via hashdump), pivoting to other hosts, persisting access, or accessing all files and processes.
+
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/e404181f7fe03e5d6909390536e3c970984ab80d/image/Screenshot%202026-06-07%20031049.png)
+
+The target machine was running an unpatched Windows 7 SP1 instance with SMBv1 enabled and exposed on the network. Using publicly available tools (Nmap and Metasploit), the EternalBlue vulnerability was confirmed and exploited in under 5 minutes, resulting in a SYSTEM shell with no credentials required. This demonstrates the critical importance of patch management and disabling legacy protocols.
