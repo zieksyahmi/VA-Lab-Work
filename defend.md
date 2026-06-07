@@ -11,11 +11,16 @@ An initial full-port service scan was performed to enumerate open services.
 
 ![IMAGE ALT](https://github.com/zieksyahmi/VA-Lab-Work/blob/cae0bf5f0cb904a6ea2d34939fe654b051434400/image/Screenshot%202026-06-07%20030803.png)
 
+Launch Metasploit and search for the module
+Opened msfconsole and searched for the EternalBlue exploit module.
+
 The Nmap smb-vuln-ms17-010 script was run to confirm exploitability
 
     nmap -p 445 --script smb-vuln-ms17-010 10.48.143.7
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/df44dd800638c40c7af83ec709ce72a188efa34c/image/Screenshot%202026-06-07%20030818.png)
+
+msf > search ms17-010
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/6d37c87ca72157e4eaee989cccb565592de36c34/image/Screenshot%202026-06-07%20030834.png)
 
