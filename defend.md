@@ -1,6 +1,19 @@
+Defend
+
+EternalBlue is a critical SMBv1 remote code execution vulnerability discovered by the NSA and publicly disclosed in 2017. It allows an unauthenticated attacker to execute arbitrary code with SYSTEM-level privileges by sending specially crafted packets to port 445. This write-up documents reconnaissance through exploitation and post-exploitation on the target machine.
+
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/0d97215d2ed1cbcf935eac02df58dbd4c8d0b08d/image/Screenshot%202026-06-07%20030750.png)
 
+Nmap service scan
+An initial full-port service scan was performed to enumerate open services.
+
+    nmap -sV -sC -p- --open T4 10.48.143.7
+
 ![IMAGE ALT](https://github.com/zieksyahmi/VA-Lab-Work/blob/cae0bf5f0cb904a6ea2d34939fe654b051434400/image/Screenshot%202026-06-07%20030803.png)
+
+The Nmap smb-vuln-ms17-010 script was run to confirm exploitability
+
+    nmap -p 445 --script smb-vuln-ms17-010 10.48.143.7
 
 ![image alt](https://github.com/zieksyahmi/VA-Lab-Work/blob/df44dd800638c40c7af83ec709ce72a188efa34c/image/Screenshot%202026-06-07%20030818.png)
 
